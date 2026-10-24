@@ -2,14 +2,21 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
+  "homepage": "https://github.com/R-optimusx/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/R-optimusx/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-optimusx/Backend.git"
+  },
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "rahul": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.14"
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0"
   }
 }
